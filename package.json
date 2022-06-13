@@ -9,6 +9,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "element-plus": "^2.2.5",
+    "firebase": "^9.8.3",
     "pinia": "^2.0.14",
     "vue": "^3.2.36",
     "vue-router": "^4.0.15"
@@ -16,13 +18,18 @@
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
     "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/test-utils": "^2.0.0",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^8.2.0",
     "jsdom": "^19.0.0",
     "prettier": "^2.5.1",
+    "sass": "^1.52.3",
     "vite": "^2.9.9",
     "vitest": "^0.13.0"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
   }
 }
